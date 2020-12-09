@@ -30,8 +30,6 @@ class JsonParser:
                         title = todo.get('title')
                     uncompleted_tasks.append(title)
 
-        completed_tasks = tuple(completed_tasks)
-        uncompleted_tasks = tuple(uncompleted_tasks)
         return completed_tasks, uncompleted_tasks
     
 
